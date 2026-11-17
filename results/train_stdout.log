@@ -1,0 +1,14 @@
+train 3060 | val 339 | device mps | class weights soil 0.39, bedrock 0.33, sand 0.66, big rock 2.62
+epoch  1  loss 0.7054  val mIoU 0.6839  {'soil': 0.8381, 'bedrock': 0.8571, 'sand': 0.6814, 'big rock': 0.3591}  (10.0 min)
+epoch  2  loss 0.4477  val mIoU 0.6028  {'soil': 0.8767, 'bedrock': 0.7497, 'sand': 0.5595, 'big rock': 0.2253}  (16.1 min)
+epoch  3  loss 0.3221  val mIoU 0.6232  {'soil': 0.8671, 'bedrock': 0.7922, 'sand': 0.6952, 'big rock': 0.1384}  (21.5 min)
+epoch  4  loss 0.3091  val mIoU 0.6238  {'soil': 0.9058, 'bedrock': 0.751, 'sand': 0.7489, 'big rock': 0.0896}  (26.2 min)
+epoch  5  loss 0.2455  val mIoU 0.7587  {'soil': 0.8889, 'bedrock': 0.9029, 'sand': 0.8086, 'big rock': 0.4345}  (30.7 min)
+epoch  6  loss 0.1846  val mIoU 0.7657  {'soil': 0.9275, 'bedrock': 0.9129, 'sand': 0.7696, 'big rock': 0.4527}  (35.0 min)
+epoch  7  loss 0.1619  val mIoU 0.7582  {'soil': 0.9166, 'bedrock': 0.9068, 'sand': 0.815, 'big rock': 0.3946}  (40.2 min)
+epoch  8  loss 0.1304  val mIoU 0.7959  {'soil': 0.9385, 'bedrock': 0.9294, 'sand': 0.8353, 'big rock': 0.4806}  (46.5 min)
+epoch  9  loss 0.1051  val mIoU 0.7967  {'soil': 0.9381, 'bedrock': 0.9315, 'sand': 0.8289, 'big rock': 0.4885}  (53.6 min)
+epoch 10  loss 0.0842  val mIoU 0.7928  {'soil': 0.9356, 'bedrock': 0.9342, 'sand': 0.8209, 'big rock': 0.4804}  (143.9 min)
+epoch 11  loss 0.0787  val mIoU 0.7976  {'soil': 0.9338, 'bedrock': 0.9327, 'sand': 0.8278, 'big rock': 0.4961}  (147.6 min)
+epoch 12  loss 0.0758  val mIoU 0.7943  {'soil': 0.934, 'bedrock': 0.9309, 'sand': 0.8226, 'big rock': 0.4895}  (150.8 min)
+best val mIoU 0.7976

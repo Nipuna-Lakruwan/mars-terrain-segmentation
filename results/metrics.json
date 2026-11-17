@@ -1,0 +1,177 @@
+{
+  "test_min3": {
+    "images": 286,
+    "unet": {
+      "mIoU": 0.8002,
+      "pixel_accuracy": 0.9696,
+      "iou": {
+        "soil": 0.9559,
+        "bedrock": 0.9322,
+        "sand": 0.9233,
+        "big rock": 0.3894
+      },
+      "recall": {
+        "soil": 0.9674,
+        "bedrock": 0.9679,
+        "sand": 0.9752,
+        "big rock": 0.9714
+      },
+      "precision": {
+        "soil": 0.9877,
+        "bedrock": 0.9619,
+        "sand": 0.9456,
+        "big rock": 0.3939
+      },
+      "pixel_share": {
+        "soil": 0.5135,
+        "bedrock": 0.2239,
+        "sand": 0.2619,
+        "big rock": 0.0007
+      }
+    },
+    "all_soil_baseline": {
+      "mIoU": 0.1284,
+      "pixel_accuracy": 0.5135,
+      "iou": {
+        "soil": 0.5135,
+        "bedrock": 0.0,
+        "sand": 0.0,
+        "big rock": 0.0
+      },
+      "recall": {
+        "soil": 1.0,
+        "bedrock": 0.0,
+        "sand": 0.0,
+        "big rock": 0.0
+      },
+      "precision": {
+        "soil": 0.5135,
+        "bedrock": 0.0,
+        "sand": 0.0,
+        "big rock": 0.0
+      },
+      "pixel_share": {
+        "soil": 0.5135,
+        "bedrock": 0.2239,
+        "sand": 0.2619,
+        "big rock": 0.0007
+      }
+    },
+    "confusion_matrix_rows_true_cols_pred": [
+      [
+        3631682,
+        17976,
+        104372,
+        0
+      ],
+      [
+        42958,
+        1584389,
+        3062,
+        6524
+      ],
+      [
+        2034,
+        44788,
+        1866826,
+        728
+      ],
+      [
+        139,
+        0,
+        0,
+        4713
+      ]
+    ],
+    "per_image_accuracy_quartiles": [
+      0.977,
+      1.0,
+      1.0
+    ]
+  },
+  "test_min1": {
+    "images": 321,
+    "unet": {
+      "mIoU": 0.6455,
+      "pixel_accuracy": 0.9072,
+      "iou": {
+        "soil": 0.8845,
+        "bedrock": 0.7839,
+        "sand": 0.8202,
+        "big rock": 0.0935
+      },
+      "recall": {
+        "soil": 0.927,
+        "bedrock": 0.8988,
+        "sand": 0.8827,
+        "big rock": 0.4695
+      },
+      "precision": {
+        "soil": 0.9507,
+        "bedrock": 0.8597,
+        "sand": 0.9205,
+        "big rock": 0.1046
+      },
+      "pixel_share": {
+        "soil": 0.4586,
+        "bedrock": 0.3089,
+        "sand": 0.2305,
+        "big rock": 0.002
+      }
+    },
+    "all_soil_baseline": {
+      "mIoU": 0.1146,
+      "pixel_accuracy": 0.4586,
+      "iou": {
+        "soil": 0.4586,
+        "bedrock": 0.0,
+        "sand": 0.0,
+        "big rock": 0.0
+      },
+      "recall": {
+        "soil": 1.0,
+        "bedrock": 0.0,
+        "sand": 0.0,
+        "big rock": 0.0
+      },
+      "precision": {
+        "soil": 0.4586,
+        "bedrock": 0.0,
+        "sand": 0.0,
+        "big rock": 0.0
+      },
+      "pixel_share": {
+        "soil": 0.4586,
+        "bedrock": 0.3089,
+        "sand": 0.2305,
+        "big rock": 0.002
+      }
+    },
+    "confusion_matrix_rows_true_cols_pred": [
+      [
+        5160733,
+        236026,
+        166856,
+        3465
+      ],
+      [
+        247970,
+        3371067,
+        44867,
+        86594
+      ],
+      [
+        15717,
+        306723,
+        2470241,
+        5789
+      ],
+      [
+        3876,
+        7172,
+        1599,
+        11192
+      ]
+    ]
+  }
+}

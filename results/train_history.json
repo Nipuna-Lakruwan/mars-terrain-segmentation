@@ -1,0 +1,146 @@
+[
+ {
+  "epoch": 1,
+  "train_loss": 0.7054483469794778,
+  "val_mIoU": 0.6839,
+  "val_iou": {
+   "soil": 0.8381,
+   "bedrock": 0.8571,
+   "sand": 0.6814,
+   "big rock": 0.3591
+  },
+  "minutes": 10.0
+ },
+ {
+  "epoch": 2,
+  "train_loss": 0.4477213184038798,
+  "val_mIoU": 0.6028,
+  "val_iou": {
+   "soil": 0.8767,
+   "bedrock": 0.7497,
+   "sand": 0.5595,
+   "big rock": 0.2253
+  },
+  "minutes": 16.1
+ },
+ {
+  "epoch": 3,
+  "train_loss": 0.3221087135520636,
+  "val_mIoU": 0.6232,
+  "val_iou": {
+   "soil": 0.8671,
+   "bedrock": 0.7922,
+   "sand": 0.6952,
+   "big rock": 0.1384
+  },
+  "minutes": 21.5
+ },
+ {
+  "epoch": 4,
+  "train_loss": 0.30910975266905394,
+  "val_mIoU": 0.6238,
+  "val_iou": {
+   "soil": 0.9058,
+   "bedrock": 0.751,
+   "sand": 0.7489,
+   "big rock": 0.0896
+  },
+  "minutes": 26.2
+ },
+ {
+  "epoch": 5,
+  "train_loss": 0.24550244538417829,
+  "val_mIoU": 0.7587,
+  "val_iou": {
+   "soil": 0.8889,
+   "bedrock": 0.9029,
+   "sand": 0.8086,
+   "big rock": 0.4345
+  },
+  "minutes": 30.7
+ },
+ {
+  "epoch": 6,
+  "train_loss": 0.18459173380549437,
+  "val_mIoU": 0.7657,
+  "val_iou": {
+   "soil": 0.9275,
+   "bedrock": 0.9129,
+   "sand": 0.7696,
+   "big rock": 0.4527
+  },
+  "minutes": 35.0
+ },
+ {
+  "epoch": 7,
+  "train_loss": 0.1619290899996664,
+  "val_mIoU": 0.7582,
+  "val_iou": {
+   "soil": 0.9166,
+   "bedrock": 0.9068,
+   "sand": 0.815,
+   "big rock": 0.3946
+  },
+  "minutes": 40.2
+ },
+ {
+  "epoch": 8,
+  "train_loss": 0.1304204652317209,
+  "val_mIoU": 0.7959,
+  "val_iou": {
+   "soil": 0.9385,
+   "bedrock": 0.9294,
+   "sand": 0.8353,
+   "big rock": 0.4806
+  },
+  "minutes": 46.5
+ },
+ {
+  "epoch": 9,
+  "train_loss": 0.10510105638722189,
+  "val_mIoU": 0.7967,
+  "val_iou": {
+   "soil": 0.9381,
+   "bedrock": 0.9315,
+   "sand": 0.8289,
+   "big rock": 0.4885
+  },
+  "minutes": 53.6
+ },
+ {
+  "epoch": 10,
+  "train_loss": 0.0841955044495514,
+  "val_mIoU": 0.7928,
+  "val_iou": {
+   "soil": 0.9356,
+   "bedrock": 0.9342,
+   "sand": 0.8209,
+   "big rock": 0.4804
+  },
+  "minutes": 143.9
+ },
+ {
+  "epoch": 11,
+  "train_loss": 0.07867640700994753,
+  "val_mIoU": 0.7976,
+  "val_iou": {
+   "soil": 0.9338,
+   "bedrock": 0.9327,
+   "sand": 0.8278,
+   "big rock": 0.4961
+  },
+  "minutes": 147.6
+ },
+ {
+  "epoch": 12,
+  "train_loss": 0.07582688171879139,
+  "val_mIoU": 0.7943,
+  "val_iou": {
+   "soil": 0.934,
+   "bedrock": 0.9309,
+   "sand": 0.8226,
+   "big rock": 0.4895
+  },
+  "minutes": 150.8
+ }
+]
